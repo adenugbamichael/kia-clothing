@@ -1,15 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
 import Homepage from "./pages/homepage/homepage.component"
-
-const HatsPage = () => {
-  console.log()
-  return (
-    <div>
-      <h1>HATS PAGE</h1>
-    </div>
-  )
-}
+import ShopPage from "./pages/shop/shop.component.jsx"
 
 function App() {
   return (
@@ -17,7 +9,7 @@ function App() {
       <div>
         <Routes>
           <Route exact path='/' element={<Homepage />} />
-          <Route exact path='/hats' element={<HatsPage />} />
+          <Route exact path='/shop' element={<ShopPage />} />
         </Routes>
       </div>
     </BrowserRouter>

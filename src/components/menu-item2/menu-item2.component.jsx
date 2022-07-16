@@ -16,7 +16,7 @@ const MenuItem2 = ({ title, imageUrl, size, linkUrl, match }) => {
         style={{ backgroundImage: `url(${imageUrl})` }}
       />
       <div className='content2'>
-        <h1 className='title'>{title}</h1>
+        <h2 className='title'>{title}</h2>
         {/* <span className='subtitle'></span> */}
       </div>
     </div>
