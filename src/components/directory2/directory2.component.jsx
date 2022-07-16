@@ -14,21 +14,21 @@ class Directory2 extends React.Component {
           title: "hats",
           imageUrl:
             "https://media.istockphoto.com/photos/millinery-shop-picture-id1078144480?k=20&m=1078144480&s=612x612&w=0&h=DHXa6RIdNdGb738d0Dfq33sN4SMVFoujePXYK8HVA5w=",
-          id: 1,
+          id: 4,
           linkUrl: "hats",
         },
         {
           title: "jackets",
           imageUrl:
             "https://media.istockphoto.com/photos/men-clothing-in-a-store-in-milan-picture-id909176510?k=20&m=909176510&s=612x612&w=0&h=gauXY8q38cT-vLTSX8Skb8ahlnGjvJR5TcxRrvNMzaw=",
-          id: 2,
+          id: 5,
           linkUrl: "",
         },
         {
           title: "sneakers",
           imageUrl:
             "https://media.istockphoto.com/photos/assortment-of-comfortable-casual-sports-shoes-on-showcase-in-store-picture-id1359206288?k=20&m=1359206288&s=612x612&w=0&h=lqUaVzNyCZaQVX__rBAxfLjd37Ji0gbg3GeDm-ztKuY=",
-          id: 3,
+          id: 6,
           linkUrl: "",
         },
       ],
@@ -37,8 +37,8 @@ class Directory2 extends React.Component {
   render() {
     return (
       <div className='directory-menu'>
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem2 key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem2 key={id} {...otherSectionProps} />
         ))}
       </div>
     )

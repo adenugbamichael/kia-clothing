@@ -1,11 +1,26 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
 import Homepage from "./pages/homepage/homepage.component"
 
-function App() {
+const HatsPage = () => {
+  console.log()
   return (
     <div>
-      <Homepage />
+      <h1>HATS PAGE</h1>
     </div>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route exact path='/' element={<Homepage />} />
+          <Route exact path='/hats' element={<HatsPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
