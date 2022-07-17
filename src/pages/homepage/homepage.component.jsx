@@ -5,9 +5,9 @@ import "./homepage.styles.scss"
 
 const Homepage = () => (
   <div className='homepage'>
-    <h2 className='toph'>SHOP BY CATEGORY</h2>
+    <h2 className='toph'>Shop By Category</h2>
     <Directory />
-    <h2 className='bottomh'>POPULAR ITEMS</h2>
+    <h2 className='bottomh'>Popular Items</h2>
     <Directory2 />
   </div>
 )
