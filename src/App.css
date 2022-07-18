@@ -5,6 +5,9 @@ body {
 
 a {
   text-decoration: none;
-  /* color: black; */
-  color: #4a4a4a;
+  color: #408dfd;
+}
+
+* {
+  box-sizing: border-box;
 }

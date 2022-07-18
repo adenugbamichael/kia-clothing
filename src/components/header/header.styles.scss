@@ -8,7 +8,7 @@
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 25px 12px;
   }
 
   .options {
@@ -19,7 +19,10 @@
     justify-content: flex-end;
 
     .option {
+      border: 1px solid #0a2237;
       padding: 10px 15px;
+      color: #0a2237;
+      cursor: pointer;
     }
   }
 }
