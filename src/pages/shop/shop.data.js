@@ -14,8 +14,7 @@ const SHOP_DATA = [
       {
         id: 2,
         name: "Floral Blouse",
-        imageUrl:
-          "https://i.pinimg.com/564x/38/b7/77/38b77731539777fc90d1049f059913f8.jpg",
+        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
         price: 20,
       },
       {
