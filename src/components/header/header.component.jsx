@@ -12,8 +12,8 @@ const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
       <Logo className='logo' />
-      <SearchBox />
     </Link>
+    <SearchBox />
     <div className='options'>
       <Link className='option' to='/shop'>
         Shop

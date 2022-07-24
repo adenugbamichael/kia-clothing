@@ -5,7 +5,11 @@ import "./searchbox.styles.scss"
 const SearchBox = () => {
   return (
     <div className='searchbox'>
-      <input className='search-item' type='search' placeholder='search items' />
+      <input
+        className='search-input'
+        type='search'
+        placeholder='search items'
+      />
     </div>
   )
 }
