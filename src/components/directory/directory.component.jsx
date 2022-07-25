@@ -21,7 +21,7 @@ class Directory extends React.Component {
         {
           title: "mens",
           imageUrl:
-            "https://images.pexels.com/photos/4297163/pexels-photo-4297163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://i.pinimg.com/564x/5d/2f/07/5d2f07a955aa806cdc548028338964a8.jpg",
           size: "large",
           id: 2,
           linkUrl: "",
@@ -29,7 +29,7 @@ class Directory extends React.Component {
         {
           title: "kids",
           imageUrl:
-            "https://i.pinimg.com/564x/3e/90/d7/3e90d74bc5a42f174f9248928cb26c33.jpg",
+            "https://i.pinimg.com/564x/da/4e/4e/da4e4e80baa3efb824f192e1faf60d93.jpg",
           size: "large",
           id: 3,
           linkUrl: "",
